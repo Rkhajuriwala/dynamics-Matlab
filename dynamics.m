@@ -30,8 +30,8 @@ K = k1 +k2+ k3 ;
 g = 9.8;
 
 P1 = simplify(m1 * g * T01(3,4));
-P2 = simplify(m1 * g * T02(3,4));
-P3 = simplify(m1 * g * T03(3,4));
+P2 = simplify(m2 * g * T02(3,4));
+P3 = simplify(m3 * g * T03(3,4));
 
 P = P1 + P2 + P3 ;
 
